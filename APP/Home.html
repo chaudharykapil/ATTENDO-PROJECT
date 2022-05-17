@@ -16,9 +16,23 @@
     <title>Document</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Koulen&family=Montserrat:wght@500&family=Staatliches&display=swap');
-        body
-        {
+
+        body {
             text-decoration: none;
+        }
+
+        .blc2
+        {
+            display: flex;
+            flex-wrap: wrap;
+            -ms-flex-align: center;
+            justify-content: space-around;
+        }
+        .table
+        {
+            width: 60%;
+            justify-self: center;
+            align-self: center;
         }
     </style>
 </head>
@@ -26,7 +40,7 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">ATTENTODO</a>
+            <a class="navbar-brand" href="Attendo.html">ATTENTODO</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
                 aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -50,20 +64,260 @@
                     </li>
                 </ul>
                 <span class="navbar-text">
-                    <a  href="login.html" >Login/Register</a>
+                    <a href="login.html">Login/Register</a>
                 </span>
             </div>
         </div>
     </nav>
-    
-    
+
+
     </div>
+    <p style="font-family: koulen, sans-serif; text-align: center; font-size: 45px;">Attendance/Schedule</p>
     <div class="blc2">
-        <p style="font-family: koulen, sans-serif; text-align: center; font-size: 45px;">Attendance/Schedule</p>
         <div id="piechart" style="width: 40%; height: 60vh;margin-top: 4vh;"></div>
+
+        <div class="table">
+            <style type="text/css">
+                @media screen and (max-width: 767px) {
+                    .tg {
+                        width: auto !important;
+                    }
+
+                    .tg col {
+                        width: auto !important;
+                    }
+
+                    .tg-wrap {
+                        overflow-x: auto;
+                        -webkit-overflow-scrolling: touch;
+                    }
+                }
+            </style>
+            <div class="tg-wrap">
+                <table style="border-collapse:collapse;border-spacing:0;table-layout: fixed; width: 829px" class="tg">
+                    <colgroup>
+                        <col style="width: 101px">
+                        <col style="width: 91px">
+                        <col style="width: 91px">
+                        <col style="width: 91px">
+                        <col style="width: 91px">
+                        <col style="width: 91px">
+                        <col style="width: 91px">
+                        <col style="width: 91px">
+                        <col style="width: 91px">
+                    </colgroup>
+                    <thead>
+                        <tr>
+                            <th
+                                style="background-color:#282424;border-color:black;border-style:solid;border-width:1px;color:#e5c8eb;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
+                                Time Table</th>
+                            <th
+                                style="background-color:#282424;border-color:black;border-style:solid;border-width:1px;color:#e5c8eb;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
+                                LECTURE 1</th>
+                            <th
+                                style="background-color:#282424;border-color:black;border-style:solid;border-width:1px;color:#e5c8eb;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
+                                LECTURE 2</th>
+                            <th
+                                style="background-color:#282424;border-color:black;border-style:solid;border-width:1px;color:#e5c8eb;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
+                                LECTURE 3</th>
+                            <th
+                                style="background-color:#282424;border-color:black;border-style:solid;border-width:1px;color:#e5c8eb;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
+                                LECTURE 4</th>
+                            <th
+                                style="background-color:#282424;border-color:black;border-style:solid;border-width:1px;color:#e5c8eb;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
+                                LECTURE 5</th>
+                            <th
+                                style="background-color:#282424;border-color:black;border-style:solid;border-width:1px;color:#e5c8eb;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
+                                LECTURE 6</th>
+                            <th
+                                style="background-color:#282424;border-color:black;border-style:solid;border-width:1px;color:#e5c8eb;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
+                                LECTURE 7</th>
+                            <th
+                                style="background-color:#282424;border-color:black;border-style:solid;border-width:1px;color:#e5c8eb;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
+                                LECTURE 8</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td
+                                style="background-color:#282424;border-color:black;border-style:solid;border-width:1px;color:#e5c8eb;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
+                                MONDAY</td>
+                            <td
+                                style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
+                            </td>
+                            <td
+                                style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
+                            </td>
+                            <td
+                                style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
+                            </td>
+                            <td
+                                style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
+                            </td>
+                            <td
+                                style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
+                            </td>
+                            <td
+                                style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
+                            </td>
+                            <td
+                                style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
+                            </td>
+                            <td
+                                style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td
+                                style="background-color:#282424;border-color:black;border-style:solid;border-width:1px;color:#e5c8eb;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
+                                TUESDAY</td>
+                            <td
+                                style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
+                            </td>
+                            <td
+                                style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
+                            </td>
+                            <td
+                                style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
+                            </td>
+                            <td
+                                style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
+                            </td>
+                            <td
+                                style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
+                            </td>
+                            <td
+                                style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
+                            </td>
+                            <td
+                                style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
+                            </td>
+                            <td
+                                style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td
+                                style="background-color:#282424;border-color:black;border-style:solid;border-width:1px;color:#e5c8eb;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
+                                WEDNESDAY</td>
+                            <td
+                                style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
+                            </td>
+                            <td
+                                style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
+                            </td>
+                            <td
+                                style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
+                            </td>
+                            <td
+                                style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
+                            </td>
+                            <td
+                                style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
+                            </td>
+                            <td
+                                style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
+                            </td>
+                            <td
+                                style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
+                            </td>
+                            <td
+                                style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td
+                                style="background-color:#282424;border-color:black;border-style:solid;border-width:1px;color:#e5c8eb;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
+                                THURSDAY</td>
+                            <td
+                                style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
+                            </td>
+                            <td
+                                style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
+                            </td>
+                            <td
+                                style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
+                            </td>
+                            <td
+                                style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
+                            </td>
+                            <td
+                                style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
+                            </td>
+                            <td
+                                style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
+                            </td>
+                            <td
+                                style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
+                            </td>
+                            <td
+                                style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td
+                                style="background-color:#282424;border-color:black;border-style:solid;border-width:1px;color:#e5c8eb;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
+                                FRIDAY</td>
+                            <td
+                                style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
+                            </td>
+                            <td
+                                style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
+                            </td>
+                            <td
+                                style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
+                            </td>
+                            <td
+                                style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
+                            </td>
+                            <td
+                                style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
+                            </td>
+                            <td
+                                style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
+                            </td>
+                            <td
+                                style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
+                            </td>
+                            <td
+                                style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td
+                                style="background-color:#282424;border-color:black;border-style:solid;border-width:1px;color:#e5c8eb;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
+                                SATURDAY</td>
+                            <td
+                                style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
+                            </td>
+                            <td
+                                style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
+                            </td>
+                            <td
+                                style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
+                            </td>
+                            <td
+                                style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
+                            </td>
+                            <td
+                                style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
+                            </td>
+                            <td
+                                style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
+                            </td>
+                            <td
+                                style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
+                            </td>
+                            <td
+                                style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
     </div>
     <script src="../Script/login.js"></script>
-    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
 </body>
 
 </html>
